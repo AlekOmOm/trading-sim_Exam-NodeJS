@@ -1,4 +1,14 @@
 # Trading Simulator 
+## get started 
+
+```bash
+git clone https://github.com/AlekOmOm/trading-sim_Exam-NodeJS.git
+cd trading-sim_Exam-NodeJS
+make run
+
+```
+
+## Project Overview
 
 playground for testing Trading Strategies
 
@@ -18,27 +28,17 @@ docs:
 - [frontend](frontend/README.md)
 - [backend](backend/README.md)
 
-## get started 
-
-```bash
-git clone https://github.com/AlekOmOm/trading-sim_Exam-NodeJS.git
-cd trading-sim_Exam-NodeJS
-make run
-
-```
-
-
 ## 📁 File Structure
 
 ```
 trading-sim_Exam-NodeJS/
    ├── .env.template          
    ├── .env                   # auto-generated (with `make run`)
-   ├── shared/
+   ├── db/
    ├── backend/
    ├── frontend/
    ├── scripts/
-   │   └── setup-env.js       
+   ├── shared/
    ├── docs/
    ...
    └── README.md         
