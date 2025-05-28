@@ -23,11 +23,8 @@ docs:
 ```bash
 git clone https://github.com/AlekOmOm/trading-sim_Exam-NodeJS.git
 cd trading-sim_Exam-NodeJS
-```
-
-runs with setup-env
-```bash
 make run
+
 ```
 
 
